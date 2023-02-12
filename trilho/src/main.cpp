@@ -39,7 +39,7 @@ void setup()
   //stepper.setSpeed()
 
   if(sensor.init() != true){
-    Serial.println("Não foi possível iniciar o sensor e pau no seu cu");
+    Serial.println("Não foi possível iniciar o sensor");
     //TODO handle init
   }
 
